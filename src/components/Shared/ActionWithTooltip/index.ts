@@ -1,2 +1,2 @@
-export { ActionWithTooltip } from './ActionWithTooltip';
-export type { ActionWithTooltipProps } from './ActionWithTooltip';
+export type { ActionWithTooltipProps } from "./ActionWithTooltip";
+export { ActionWithTooltip } from "./ActionWithTooltip";

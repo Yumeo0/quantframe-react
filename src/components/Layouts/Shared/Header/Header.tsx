@@ -1,18 +1,23 @@
 import { Group, useMantineTheme } from "@mantine/core";
-import classes from "./Header.module.css";
-import { Logo } from "../Logo";
 import { Clock } from "../Clock";
+import { Logo } from "../Logo";
 import { UserMenu } from "../UserMenu";
+import classes from "./Header.module.css";
 
-export type HeaderProps = {};
+export type HeaderProps = Record<string, never>;
 
-export function Header({}: HeaderProps) {
-  const theme = useMantineTheme();
-  return (
-    <Group ml={"sm"} mr={"sm"} justify="space-between" className={classes.header}>
-      <Logo color={theme.other.logoColor} />
-      <Clock />
-      <UserMenu />
-    </Group>
-  );
+export function Header(_: HeaderProps) {
+	const theme = useMantineTheme();
+	return (
+		<Group
+			ml={"sm"}
+			mr={"sm"}
+			justify="space-between"
+			className={classes.header}
+		>
+			<Logo color={theme.other.logoColor} />
+			<Clock />
+			<UserMenu />
+		</Group>
+	);
 }

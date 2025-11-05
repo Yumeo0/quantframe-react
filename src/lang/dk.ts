@@ -1,3 +1,1 @@
-export const dk = {
-
-};
+export const dk = {};

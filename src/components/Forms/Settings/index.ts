@@ -1,2 +1,2 @@
-export { SettingsForm } from './SettingsForm';
-export type { SettingsFormProps } from './SettingsForm';
+export type { SettingsFormProps } from "./SettingsForm";
+export { SettingsForm } from "./SettingsForm";

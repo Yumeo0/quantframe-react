@@ -1,2 +1,2 @@
-export { RivenFilterAttribute } from './RivenFilterAttribute';
-export type { RivenFilterAttributeProps } from './RivenFilterAttribute';
+export type { RivenFilterAttributeProps } from "./RivenFilterAttribute";
+export { RivenFilterAttribute } from "./RivenFilterAttribute";

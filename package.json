@@ -8,7 +8,7 @@
 		"build": "tsc && vite build",
 		"biome:format": "pnpm exec biome format --write",
 		"biome:lint": "pnpm exec biome lint --write",
-		"biome:check": "pnpm exec biome check --write",
+		"biome:check": "pnpm exec biome check --write --diagnostic-level warn",
 		"preview": "vite preview",
 		"tauri:build": "pnpm tauri build --debug",
 		"tauri:dev": "pnpm tauri dev"

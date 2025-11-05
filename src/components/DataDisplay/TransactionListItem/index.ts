@@ -1,2 +1,2 @@
-export { TransactionListItem } from './TransactionListItem';
-export type { TransactionListItemProps } from './TransactionListItem';
+export type { TransactionListItemProps } from "./TransactionListItem";
+export { TransactionListItem } from "./TransactionListItem";

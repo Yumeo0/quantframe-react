@@ -1,13 +1,13 @@
 .root {
-  border-radius: 0.5rem;
-  margin-top: 2.0rem;
-  padding: 1rem;
+	border-radius: 0.5rem;
+	margin-top: 2rem;
+	padding: 1rem;
 }
 
 .chartContainer {
-  margin-top: -2.0rem;
+	margin-top: -2rem;
 }
 
 .chartCanvas {
-  border-radius: 0.5rem;
+	border-radius: 0.5rem;
 }

@@ -1,2 +1,2 @@
-export { TooltipIcon } from './TooltipIcon';
-export type { TooltipIconProps } from './TooltipIcon';
+export type { TooltipIconProps } from "./TooltipIcon";
+export { TooltipIcon } from "./TooltipIcon";

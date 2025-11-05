@@ -1,2 +1,2 @@
-export { HttpServerPanel } from "./HttpServer";
 export type { HttpServerPanelProps } from "./HttpServer";
+export { HttpServerPanel } from "./HttpServer";

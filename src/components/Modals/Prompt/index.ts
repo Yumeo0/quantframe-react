@@ -1,2 +1,6 @@
-export { PromptModal } from './PromptModal';
-export type { PromptModalProps, PromptField, PromptFieldOption } from './PromptModal';
+export type {
+	PromptField,
+	PromptFieldOption,
+	PromptModalProps,
+} from "./PromptModal";
+export { PromptModal } from "./PromptModal";

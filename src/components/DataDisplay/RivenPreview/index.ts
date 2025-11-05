@@ -1,2 +1,2 @@
-export { RivenPreview } from './RivenPreview';
-export type { RivenPreviewProps } from './RivenPreview';
+export type { RivenPreviewProps } from "./RivenPreview";
+export { RivenPreview } from "./RivenPreview";

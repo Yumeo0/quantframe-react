@@ -1,2 +1,2 @@
-export { BarCardChart } from './BarCardChart';
-export type { ClickColumn, BarCardChartProps } from './BarCardChart';
+export type { BarCardChartProps, ClickColumn } from "./BarCardChart";
+export { BarCardChart } from "./BarCardChart";

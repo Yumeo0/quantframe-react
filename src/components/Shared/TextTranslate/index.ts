@@ -1,2 +1,2 @@
-export { TextTranslate } from './TextTranslate';
-export type { TextTranslateProps } from './TextTranslate';
+export type { TextTranslateProps } from "./TextTranslate";
+export { TextTranslate } from "./TextTranslate";

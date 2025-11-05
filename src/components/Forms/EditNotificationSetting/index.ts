@@ -1,2 +1,2 @@
-export { EditNotificationSetting } from "./EditNotificationSetting";
 export type { EditNotificationSettingProps } from "./EditNotificationSetting";
+export { EditNotificationSetting } from "./EditNotificationSetting";

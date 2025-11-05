@@ -1,2 +1,2 @@
-export { ButtonInterval } from './ButtonInterval';
-export type { ButtonIntervalProps } from './ButtonInterval';
+export type { ButtonIntervalProps } from "./ButtonInterval";
+export { ButtonInterval } from "./ButtonInterval";

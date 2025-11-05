@@ -1,2 +1,2 @@
-export { SelectMultipleItems } from "./SelectMultipleItems";
 export type { SelectMultipleItemsProps } from "./SelectMultipleItems";
+export { SelectMultipleItems } from "./SelectMultipleItems";

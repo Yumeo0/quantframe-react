@@ -1,2 +1,2 @@
-export { MinMax } from './MinMax';
-export type { MinMaxProps } from './MinMax';
+export type { MinMaxProps } from "./MinMax";
+export { MinMax } from "./MinMax";

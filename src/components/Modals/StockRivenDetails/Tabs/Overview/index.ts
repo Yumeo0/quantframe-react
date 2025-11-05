@@ -1,2 +1,2 @@
-export { OverviewTab } from "./OverviewTab";
 export type { OverviewTabProps } from "./OverviewTab";
+export { OverviewTab } from "./OverviewTab";

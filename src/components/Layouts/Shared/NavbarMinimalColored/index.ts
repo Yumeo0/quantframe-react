@@ -1,2 +1,5 @@
-export { NavbarMinimalColored } from './NavbarMinimalColored';
-export type { NavbarMinimalColoredProps, NavbarLinkProps } from './NavbarMinimalColored';
+export type {
+	NavbarLinkProps,
+	NavbarMinimalColoredProps,
+} from "./NavbarMinimalColored";
+export { NavbarMinimalColored } from "./NavbarMinimalColored";

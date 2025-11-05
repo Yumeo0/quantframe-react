@@ -1,2 +1,2 @@
-export { StockItemDetailsModal } from "./StockItemDetailsModal";
 export type { StockItemDetailsModalProps } from "./StockItemDetailsModal";
+export { StockItemDetailsModal } from "./StockItemDetailsModal";

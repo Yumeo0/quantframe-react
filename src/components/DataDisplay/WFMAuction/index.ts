@@ -1,2 +1,2 @@
-export { WFMAuction } from "./WFMAuction";
 export type { WFMAuctionProps } from "./WFMAuction";
+export { WFMAuction } from "./WFMAuction";

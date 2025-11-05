@@ -1,2 +1,2 @@
-export { ThemesPanel } from "./Themes";
 export type { ThemesPanelProps } from "./Themes";
+export { ThemesPanel } from "./Themes";

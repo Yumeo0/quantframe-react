@@ -1,2 +1,2 @@
-export { RivenAttribute } from "./RivenAttribute";
 export type { RivenAttributeProps } from "./RivenAttribute";
+export { RivenAttribute } from "./RivenAttribute";

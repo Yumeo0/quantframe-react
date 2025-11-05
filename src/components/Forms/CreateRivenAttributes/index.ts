@@ -1,2 +1,2 @@
-export { CreateRivenAttributes } from './CreateRivenAttributes';
-export type { CreateRivenAttributesProps } from './CreateRivenAttributes';
+export type { CreateRivenAttributesProps } from "./CreateRivenAttributes";
+export { CreateRivenAttributes } from "./CreateRivenAttributes";

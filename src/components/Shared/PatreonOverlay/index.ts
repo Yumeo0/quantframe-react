@@ -1,2 +1,2 @@
-export { PatreonOverlay } from "./PatreonOverlay";
 export type { PatreonOverlayProps } from "./PatreonOverlay";
+export { PatreonOverlay } from "./PatreonOverlay";

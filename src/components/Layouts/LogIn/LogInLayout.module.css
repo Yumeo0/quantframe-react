@@ -1,7 +1,7 @@
 :root {
-  overflow-y: hidden;
+	overflow-y: hidden;
 }
 .main {
-  background-color: var(--mantine-color-dark-8);
-  overflow-y: hidden;
+	background-color: var(--mantine-color-dark-8);
+	overflow-y: hidden;
 }

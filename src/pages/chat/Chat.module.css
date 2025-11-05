@@ -1,15 +1,14 @@
 .container {
-
-  &[data-has-alert="true"] {
-    margin-top: 50px;
-  }
+	&[data-has-alert="true"] {
+		margin-top: 50px;
+	}
 }
 
 .chats {
-  --offset: 150px;
-  height: calc(100vh - var(--offset));
+	--offset: 150px;
+	height: calc(100vh - var(--offset));
 
-  &[data-has-alert="true"] {
-    --offset: 200px;
-  }
+	&[data-has-alert="true"] {
+		--offset: 200px;
+	}
 }

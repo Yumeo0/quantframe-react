@@ -1,2 +1,2 @@
-export { StockItemUpdate } from "./StockItemUpdate";
 export type { StockItemUpdateProps } from "./StockItemUpdate";
+export { StockItemUpdate } from "./StockItemUpdate";

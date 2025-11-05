@@ -1,2 +1,2 @@
-export { TimerStamp } from "./TimerStamp";
 export type { TimerStampProps } from "./TimerStamp";
+export { TimerStamp } from "./TimerStamp";

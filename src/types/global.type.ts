@@ -6,54 +6,54 @@
 // export type ErrOrResult<RES> = [ResponseError, null] | [null, RES] | [ResponseError, undefined] | [undefined, RES];
 
 export interface ResponseError extends Error {
-  component: string;
-  message: string;
-  location: string;
-  cause?: string;
-  context: Record<string, any>;
-  log_level: string;
+	component: string;
+	message: string;
+	location: string;
+	cause?: string;
+	context: Record<string, any>;
+	log_level: string;
 }
 export interface SubType {
-  rank?: number;
-  variant?: string;
-  amber_stars?: number;
-  cyan_stars?: number;
+	rank?: number;
+	variant?: string;
+	amber_stars?: number;
+	cyan_stars?: number;
 }
 export interface PaginatedDto {
-  /** The total number of items in the database */
-  total: number;
-  /** The number of items returned in this request */
-  limit: number;
-  /** The current page */
-  page: number;
-  /** The total number of pages */
-  total_pages: number;
+	/** The total number of items in the database */
+	total: number;
+	/** The number of items returned in this request */
+	limit: number;
+	/** The current page */
+	page: number;
+	/** The total number of pages */
+	total_pages: number;
 }
 export enum UserStatus {
-  Online = "online",
-  Invisible = "invisible",
-  Ingame = "ingame",
+	Online = "online",
+	Invisible = "invisible",
+	Ingame = "ingame",
 }
 export interface MinMaxDto {
-  min: number;
-  max?: number;
+	min: number;
+	max?: number;
 }
 export interface Paginated<T> {
-  total: number;
-  limit: number;
-  page: number;
-  results: T[];
+	total: number;
+	limit: number;
+	page: number;
+	results: T[];
 }
 
 export interface PriceHistory {
-  created_at: Date;
-  name: string;
-  price: number;
-  user_id: string;
+	created_at: Date;
+	name: string;
+	price: number;
+	user_id: string;
 }
 export interface RivenAttribute {
-  positive: boolean;
-  url_name: string;
-  value: number;
-  effect?: string;
+	positive: boolean;
+	url_name: string;
+	value: number;
+	effect?: string;
 }

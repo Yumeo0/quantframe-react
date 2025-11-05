@@ -1,13 +1,16 @@
-import { ResponseError } from "../types";
+import type { ResponseError } from "../types";
 
 export class AppError {
-  constructor(public error: ResponseError) {}
+	constructor(public error: ResponseError) {}
 
-  isWebSocket() {
-    return this.error.component === "WebSocket";
-  }
+	isWebSocket() {
+		return this.error.component === "WebSocket";
+	}
 
-  isWebSocketError() {
-    return (this.isWebSocket() && this.error.cause === "disconnected") || this.error.cause === "reconnecting";
-  }
+	isWebSocketError() {
+		return (
+			(this.isWebSocket() && this.error.cause === "disconnected") ||
+			this.error.cause === "reconnecting"
+		);
+	}
 }

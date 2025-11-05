@@ -1,2 +1,2 @@
-export { RivenPanel } from "./Riven";
 export type { RivenPanelProps } from "./Riven";
+export { RivenPanel } from "./Riven";
