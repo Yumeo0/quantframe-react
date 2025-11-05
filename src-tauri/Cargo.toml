@@ -33,16 +33,16 @@ tauri-plugin-dialog = "2"
 tauri-plugin-http = "2"
 tauri-plugin-process = "2"
 tauri-plugin-shell = "2"
-tauri-plugin-notification = "2.0.0"
+tauri-plugin-notification = "2.3.3"
 tauri-plugin-os = "2"
-tauri-plugin-clipboard-manager = "2.3.0"
+tauri-plugin-clipboard-manager = "2.3.2"
 # Other dependencies
-reqwest = { version = "0.12.19", features = ["json"] }
-tokio = {version =  "1.45.1", features = ["full"] }
-regex = "1.9.1"
+reqwest = { version = "0.12.24", features = ["json"] }
+tokio = {version =  "1.48.0", features = ["full"] }
+regex = "1.12.2"
 chrono = "0.4"
 zip = "0.6"
-sha256 = "1.5.0"
+sha256 = "1.6.0"
 wf-market = { git = "https://github.com/KibbeWater/wf-market", rev = "33726b1c5efef62931a289484f263bf24f6ee620" }
 
 # Database dependencies
